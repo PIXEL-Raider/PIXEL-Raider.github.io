@@ -1,4 +1,9 @@
+function scrollToSection(id){
+document.getElementById(id).scrollIntoView({behavior:'smooth'});
+}
+
+
 function sendMessage(e){
 e.preventDefault();
-alert("Thank you! Your message has been sent ✅");
+alert("Message sent successfully 🚀");
 }
